@@ -1,6 +1,27 @@
-h1 {
-  color: blue;
-  text-align: center;
-  font-family: 'Fredoka One', cursive;
-  font-size: 45px;
+/* Navigation Bar */
+
+.navbar {
+  padding: 0.5rem;
+  background-color: #F5F6F7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand img {
+  width: 100px;
+  border-radius: 48%;
+  object-fit: cover;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
 }
