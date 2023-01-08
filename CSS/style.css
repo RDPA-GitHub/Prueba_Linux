@@ -5,9 +5,9 @@
     margin: 10px;
 }
 
-.col {
-    background-color: #D40655;
+.columna {
     color: white;
-    font-size: 50px;
-    border: 2px solid #640328;
+    font-size: 25px;
+    background-color: #05077B;
+    border: 5px solid white;
 }
