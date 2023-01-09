@@ -1,8 +1,15 @@
+:root {
+  --Personalize: #F5F6F7; 
+}
 /* Navigation Bar */
+
+* {
+  font-family: 'Varela Round', sans-serif;
+}
 
 .navbar {
   padding: 0.5rem;
-  background-color: #F5F6F7;
+  background-color: var(--Personalize);
 }
 
 .navbar-collapse {
@@ -14,14 +21,84 @@
   width: 100px;
   border-radius: 48%;
   object-fit: cover;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  border: 3px solid rgba(23, 34, 56, 0.7);
   padding: 10px;
   margin: 10px;
+}
+/* General styles */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+  color: rgb(23, 34, 56);
+}
+
+.Dark-section {
+  color: white;
+  background-color: #1B1B32;
+}
+
+.title-section {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive; 
+}
+
+.text-section {
+  font-size: 1.2rem;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--Personalize);
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.Rp-Developer {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /*border-radius: 100%;*/
+  border: 3px solid #1E2A36;
+  margin: 20px;
+}
+
+/* About Me */
+.about-Me {
+  height: 500px;
+  padding: 10px;
+}
+
+.about-Me .contenedor {
+  max-width: 600px;
+  text-align: center;
 }
 
 /* Responsive */
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-image {
+    max-width: 600px;
   }
 }
