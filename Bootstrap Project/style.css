@@ -301,8 +301,63 @@ section {
   font-size: 0.9rem;
   color: #656060;
 }
+
 /**********************************************************************************************************************************************/
-/* Responsive */
+/* Contacts */
+/**********************************************************************************************************************************************/
+
+.contacts .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacts .rectangule {
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacts .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacts .description {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacts button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacts button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacts button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacts button:hover i {
+  color: black;
+}
+
+/**********************************************************************************************************************************************/
+/* Responsive - Media Query*/
 /**********************************************************************************************************************************************/
 @media screen and (max-width: 400px){
   .overlay p{
