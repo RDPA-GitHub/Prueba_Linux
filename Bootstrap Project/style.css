@@ -357,6 +357,62 @@ section {
 }
 
 /**********************************************************************************************************************************************/
+/* Footer - Pie de Pagina*/
+/**********************************************************************************************************************************************/
+
+footer {
+  min-height: 500px;
+}
+
+.Logo-footer {
+  width: 190px;
+  height: 140px;
+  padding: 0;
+  margin-top: -50px;
+}
+
+.Text-footer {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.icon-social-network a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.icon-social-network i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in ;
+}
+
+.icon-social-network a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.icon-social-network a:hover i {
+  color: black
+}
+
+.copy-right {
+  font-size: 15px;
+  color: #AEAEAE;
+  padding: 20px;
+}
+
+/**********************************************************************************************************************************************/
 /* Responsive - Media Query*/
 /**********************************************************************************************************************************************/
 @media screen and (max-width: 400px){
